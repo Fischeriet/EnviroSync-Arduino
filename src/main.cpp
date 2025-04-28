@@ -6,7 +6,7 @@
 
 Settings settings;
 NetworkManager networkManager;
-WebServer webServer(networkManager);
+WebServer webServer;
 
 
 void setup() {

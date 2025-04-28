@@ -1,6 +1,6 @@
 ﻿#include "WebServer.h"
 
-WebServer::WebServer(NetworkManager& networkManager) : _server(PORT), _networkManager(networkManager) {
+WebServer::WebServer() : _server(PORT) {
 
 }
 

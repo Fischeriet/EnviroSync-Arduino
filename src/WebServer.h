@@ -11,13 +11,12 @@ class WebServer {
 private:
     WiFiServer _server;
     WiFiClient _client;
-    NetworkManager& _networkManager;
     static const int PORT = 80;
 
     void sendResponse(const char* content);
 
 public:
-    WebServer(NetworkManager& networkManager);
+    WebServer();
     void begin();
     void handleClient();
 
