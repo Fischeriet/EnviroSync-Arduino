@@ -11,7 +11,7 @@ void WebServer::begin() {
 
 void WebServer::handleClient() {
     _client = _server.available();
-    ///test
+
     if (_client) {
         String currentLine = "";
         String requestMethod = "";
