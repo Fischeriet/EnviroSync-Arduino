@@ -1,8 +1,10 @@
 ﻿#include <Arduino.h>
 
+#include "Settings.h"
 #include "NetworkManager.h"
 #include "WebServer.h"
 
+Settings settings;
 NetworkManager networkManager;
 WebServer webServer(networkManager);
 
